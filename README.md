@@ -1,2 +1,2 @@
-#Future Algorithm-Desing
+# Future Algorithm desing
 - Image cryptograpghy via SHA-256
