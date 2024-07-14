@@ -1,0 +1,14 @@
+cmake_minimum_required(VERSION 3.10)      
+
+PROJECT(TEST)              
+
+set(CMAKE_CXX_STANDARD 17)
+set(CMAKE_C_STANDARD 99)
+
+FIND_PACKAGE(OpenCV REQUIRED)     
+
+INCLUDE_DIRECTORIES(${OpenCV_INCLUDE_DIRS})
+
+ADD_EXECUTABLE(TEST main.cpp sha256.c)               
+
+TARGET_LINK_LIBRARIES (TEST ${OpenCV_LIBS} pthread)  

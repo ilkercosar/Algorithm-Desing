@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/hedef-ubuntu/cpp/sha256-image/sha256.c
+stdlib.h
+-
+memory.h
+-
+sha256.h
+/home/hedef-ubuntu/cpp/sha256-image/sha256.h
+
+/home/hedef-ubuntu/cpp/sha256-image/sha256.h
+stddef.h
+-
+

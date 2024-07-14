@@ -1,0 +1,3 @@
+/home/hedef-ubuntu/cpp/sha256-image/build/CMakeFiles/rebuild_cache.dir
+/home/hedef-ubuntu/cpp/sha256-image/build/CMakeFiles/TEST.dir
+/home/hedef-ubuntu/cpp/sha256-image/build/CMakeFiles/edit_cache.dir
